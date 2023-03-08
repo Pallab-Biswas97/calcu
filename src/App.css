@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(169, 169, 184);
+}
+.main_div{
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_box{
+  width: 360px;
+  height: 575px;
+  background-color: rgb(13, 13, 14);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.set{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.set span{
+  font-size: 2em;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 75px;
+  height: 75px;
+  background-color: #2d2d31;
+  color: rgb(205, 217, 227);
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
 }
+
+.zero{
+  width: 140px !important;
+  border-radius: 50px !important;
+  display: flex;
+  justify-content: left !important;
+  padding-left: 20px ;
+}
+
+
+.op_icon{
+  background-color: rgb(228, 147, 25) !important;
+  color: #ffffff !important;
+}
+.opt_icon{
+  background-color: rgb(184, 184, 183) !important;
+  color: #000000 !important;
+}
+
+.result_viewPort{
+  font-weight: 500;
+  width: 300px;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  font-size: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.input_viewPort{
+  font-weight: 500;
+  width: 300px;
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  font-size: 1.6em;
+  height: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.set span:active{
+  transform: scale(.95);
+}
+
