@@ -73,7 +73,7 @@ align-items: center;
   justify-content: right;
   font-size: 2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  overflow:hidden;
 }
 .input_viewPort{
   font-weight: 500;
@@ -84,7 +84,7 @@ align-items: center;
   font-size: 1.6em;
   height: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  overflow: hidden;
 }
 
 .set span:active{
